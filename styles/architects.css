@@ -6,3 +6,54 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* Shared Styles */
+.dark1{
+    color: rgb(19, 19, 19);
+}
+
+.dark2{
+    color: rgb(114, 114, 114);
+}
+
+/* header Styles */
+.header-bg{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* nav-bar related style */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    /* max-width: 1440px; */
+
+}
+
+.nav-bar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-links{
+    display: flex;
+    
+ .nav-link{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+ }
+
+.brand-name{
+    font-family: 700;
+    font-size: 45px;
+    color: rgb(19, 19, 19);
+}
+
+.nav-item{
+    list-style: none;
+
+    margin-right: 30px;
+    
+}
+
+ 
