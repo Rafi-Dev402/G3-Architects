@@ -151,10 +151,76 @@ main > section{
 .featuers-title{
     font-size: 1rem;
     font-weight: 400;
+    
 }
 
 /* section2 design */
+.enjoy-features{
+    display: flex;
+    gap: 140px;
+}
 
+
+.enjoy-hedding{
+    max-width: 445px;
+    border-left: 5px solid rgb(255, 144, 14) ;
+    border-radius: 2px;
+    padding-left: 20px;
+    
+}
+
+.enjoy-discp{
+    max-width: 586px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.feature-card{
+    max-width: 585px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    
+}
+.card-title{
+    color: rgb(19, 19, 19);
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.card-discp{
+    max-width: 514px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.enjoy-feature-image img{
+    width: 100%;
+}
+
+
+.btn2nd{
+    background-color: rgb(255, 144, 14);
+    padding:45px 42px ;
+    border-radius: 8px;
+    border: none;
+    margin-left: -100px;
+   margin-top: -100px;
+    
+}
+.Year{
+    color: white;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.exprience{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
 /* Section3 Design */
 .fact-descrip{
     max-width: 542px;
@@ -192,6 +258,11 @@ main > section{
     font-weight: 600px;
     margin-top: 10px;
 }
+
+
+
+
+
 /* Section3 styles */
 
 .sponsor-contant{
@@ -220,6 +291,7 @@ main > section{
      .nav-bar, 
      .nav-links, 
      .teams,
+     .enjoy-features
      
       {
         flex-direction: column;
@@ -229,16 +301,25 @@ main > section{
     grid-template-columns:repeat(1, 1fr) ;
    }
    
+   .fact-container, .sponsor-companys{
+    justify-items: center;
+    gap: 25px;
+   }
+
+    .btn2nd{
+        margin-top: 20px;
+        margin-left: 20px;
     }
 
-    .fact-container, .sponsor-companys{
-        justify-items: center;
-        gap: 25px;
-    }
-     
+
+
+}
+
 
  @media screen and (min-width:576px) and (max-width:992px) {
-    .teams{
+    .teams,
+    .enjoy-features
+        {
         flex-direction: column;
     }
     .our-features{
@@ -249,5 +330,10 @@ main > section{
         grid-template-columns:repeat(2, 1fr) ;
         gap: 50px;
         justify-items: center;
+    }
+
+    .btn2nd{
+        margin-top: 20px;
+        margin-left: 20px;
     }
  }
